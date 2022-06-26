@@ -1,0 +1,59 @@
+def my_function(fname):
+  print(fname + " Refsnes")
+
+
+def add(x,y=0):   #if value of y is not provided in the Argument the default value will be zero
+  return x+y
+  
+add(1,1) : 2
+add(1)   : 1  #takes y as 0 by default
+add(1,_) : 1  #I dont want to give the y
+
+
+def test(*args):   # N number of inputs
+return args
+   
+test('asdasf',34,[3,3,6]) >> output :  'asdasf',34,[3,3,6]   #You can manipulate all the data that you get if you want
+
+def test16(**kwargs):   # multiple but Keyword Arguments
+    return kwargs 
+    
+test16(a = 8 , b = True , c = [4,5,6,6,"kumar"] , d = "sudh")
+Output >>  {'a': 8, 'b': True, 'c': [4, 5, 6, 6, 'kumar'], 'd': 'sudh'}
+
+
+iter(<list>) : # Changes List as iterable object you can apply next(<list>) on or 
+               # use it in the For LOOP
+next() : # if you want to run the iterable and get the next item out of it
+
+#Generators
+
+return >> yield
+
+# its used where you need to do the computation only when its asked. saving lots of valuable memory
+# Generators :  Also help to save lots of memory used by the function in its stack and hence speeding up the process,
+#               rather than keeping the complete output in single variable its distributed across.
+ 
+ 
+
+#Files
+
+Method	Description
+close()	Closes the file
+detach()	Returns the separated raw stream from the buffer
+fileno()	Returns a number that represents the stream, from the operating system's perspective
+flush()	Flushes the internal buffer
+isatty()	Returns whether the file stream is interactive or not
+read()	Returns the file content
+readable()	Returns whether the file stream can be read or not
+readline()	Returns one line from the file
+readlines()	Returns a list of lines from the file
+seek()	Change the file position
+seekable()	Returns whether the file allows us to change the file position
+tell()	Returns the current file position
+truncate()	Resizes the file to a specified size
+writable()	Returns whether the file can be written to or not
+write()	Writes the specified string to the file
+writelines()	Writes a list of strings to the file
+  
+

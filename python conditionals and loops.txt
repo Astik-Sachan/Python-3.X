@@ -1,0 +1,17 @@
+range(stop)
+range(start, stop, step)
+
+while i < n :
+else :
+
+for i in s :
+else :
+
+https://www.geeksforgeeks.org/python-output-using-print-function/
+print(' 6'*(5)) #Prints 6  for 5 timess
+print('*', end='') #Skips Default \n after each print statement
+print('Printing a counter Value in Loop',flush = True) #Will not allow print statement to buffer and print the output
+print('Text','Text','Another',sep ='<>' )# Out: Text<>Text<>Another
+
+
+https://www.geeksforgeeks.org/python-string-methods/
